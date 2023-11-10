@@ -1,0 +1,4 @@
+11. 
+   - use route parameters to pass data to a route
+   - use the routerLink directive to use dynamic data to create a route
+   - use route parameter to retrieve data from the HousingService to display specific housing location information.
