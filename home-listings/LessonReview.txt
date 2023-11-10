@@ -1,4 +1,42 @@
-11. 
-   - use route parameters to pass data to a route
-   - use the routerLink directive to use dynamic data to create a route
-   - use route parameter to retrieve data from the HousingService to display specific housing location information.
+1. In this lesson, you updated a default Angular app to display Hello world. In the process, you 
+   learned about the ng serve command to serve your app locally for testing.
+
+2. In this lesson, you created a new component for your app and gave it a filter edit control and button.
+
+3. In this lesson, you created a new component for your app and added it to the app's layout.
+
+4. In this lesson, you created an interface that created a new data type for your app. This new data 
+   type makes it possible for you to specify where HousingLocation data is required. This new data type also 
+   makes your IDE and the TypeScript compiler ensure that HousingLocation data is used where it's required.
+
+5. In this lesson, you created a new property decorated with the @Input() decorator. You also used the non-null 
+   assertion operator to notify the compiler that the value of the new property won't be null or undefined.
+
+6. In this lesson, you added a new property binding and passed in a reference to a class property. Now, the 
+   HousingLocationComponent has access to data that it can use to customize the component's display.
+
+7. In this lesson, you added a new HTML structure and used Angular template syntax to render values in the 
+   HousingLocation template. Now, you have two important skills:
+      - passing data to components
+      - Interpolating values into a template
+   With these skills, your app can now share data and display dynamic values in the browser. Great work so far.
+
+8. In this lesson, you used the ngFor directive to repeat data dynamically in Angular templates. You also added a 
+   new array of data to be used in the Angular app. The application now dynamically renders a list of housing locations 
+   in the browser.
+
+9. In this lesson, you added an Angular service to your app and injected it into the HomeComponent class. This 
+   compartmentalizes how your app gets its data. For now, the new service gets its data from a static array of data. 
+   In a later lesson, you'll refactor the service to get its data from an API endpoint.
+
+10. In this lesson, you enabled routing in your app as well as defined new routes. Now your app can support navigation 
+   between views. In the next lesson, you will learn to navigate to the "details" page for a given housing location.
+
+11. In this lesson you updated your app to:
+      - use route parameters to pass data to a route
+      - use the routerLink directive to use dynamic data to create a route
+      - use route parameter to retrieve data from the HousingService to display specific housing location information.
+
+12. In this lesson, you updated your app to:
+      - add a form using Angular's forms feature
+      - connect the data captured in the form to a component using an event handler
