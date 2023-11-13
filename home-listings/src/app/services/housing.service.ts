@@ -124,5 +124,5 @@ export class HousingService {
   }
 
   constructor() { }
-  
+
 }
