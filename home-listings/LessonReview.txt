@@ -40,3 +40,11 @@
 12. In this lesson, you updated your app to:
       - add a form using Angular's forms feature
       - connect the data captured in the form to a component using an event handler
+
+13. In this lesson, you updated your app to:
+      - use template variables to interact with template values
+      - add search functionality using event binding and array functions
+
+14. In this lesson, you updated your app to:
+      - use a local web server (json-server)
+      - use asynchronous service methods to retrieve data.      
